@@ -32,29 +32,20 @@ It covers transforms, histogram work, filtering, noise, restoration, and frequen
 2. Install the required packages.
 3. Run the cells in order.
 
-Example install:
-
-```bash
-pip install opencv-python numpy matplotlib scipy PyWavelets
-```
-
 ## Project structure
 
 - `DIP_Assignment.ipynb` - main notebook with all experiments
 - `README.md` - project overview
+- `human.jpg` - input image
 
-## Notes
+## Input Image
 
-- The notebook uses a sample grayscale image for the experiments.
-- Each section is kept separate so the effect of each operation is easy to compare.
+The notebook uses an input image named human.jpg.
 
-## GitHub description
+Before running the notebook, place your image in the project root directory and rename it to:
 
-OpenCV notebook covering transforms, histogram processing, filtering, noise, restoration, and frequency domain image processing experiments.
+human.jpg
 
-## Good repo name ideas
+Or change the image file name to the name of the uploaded image file.
 
-- `opencv-image-processing-lab`
-- `image-processing-with-opencv`
-- `opencv-vision-notebook`
-- `digital-image-processing-playground`
+Update the path if necessary.
